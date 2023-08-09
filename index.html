@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="boder">
+    <section class="mytodo-task">
+        <div class="mytodo-list">
+            <form action="javascript:void(0)" id="CreateForm">
+                <input type="text" id="add-task" placeholder="Create A Text">
+                <div>
+                    <input type="submit" onclick="CreateTask()" value="create" class="create">
+                </div>
+
+
+            </form>
+            <form action="javascript:void(0)" id="UpdateForm">
+                <input type="text" id="update-task">
+                <div class="d-flex gap-2 col-3 py-4 mx-auto">
+                    <input type="submit" value="Update" class="Update">
+                    <a onclick="CloseInput()" id="close">&#10006;</a>
+                </div>
+            </form>
+            <p id="counter"></p>
+            <table>
+                <tr>
+                    <th>List</th>
+                </tr>
+                <tbody id="mytodo-tasks"></tbody>
+            </table>
+        </div>
+    </section>
+</div>
+</body>
+</html>

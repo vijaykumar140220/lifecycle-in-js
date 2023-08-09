@@ -1,0 +1,113 @@
+input[type="submit"],
+button,
+#close {
+    cursor: pointer;
+}
+
+.mytodo-list {
+    width: 500px;
+    margin: 100px auto;
+}
+
+.counter {
+    margin: 10px 0;
+}
+
+#UpdateForm {
+    display: none;
+}
+
+#add-task {
+    position: relative;
+    top: -70px;
+    left: 100px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+.create {
+    position: relative;
+    top: -70px;
+    left: 70px;
+    padding: 5px 10px;
+    font-size: 23px;
+    outline: none;
+    border-radius: 10px;
+    margin: 20px 120px;
+    background-color: black;
+    color: white;
+}
+
+#update-task {
+    position: relative;
+    top: -60px;
+    left: 100px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    box-shadow: none;
+}
+
+.Update {
+    position: relative;
+    top: -60px;
+    left: 70px;
+    padding: 5px 10px;
+    font-size: 23px;
+    outline: none;
+    border-radius: 10px;
+    margin: 20px 120px;
+    background-color: black;
+    color: white;
+}
+
+#counter {
+    position: relative;
+    top: -100px;
+    left: -5px;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px 18px;
+}
+
+table tr th {
+    position: relative;
+    top: -130px;
+    left: 130px;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+#mytodo-tasks {
+    font-size: 18px;
+    position: relative;
+    top: -100px;
+    left: 140px;
+}
+
+body {
+    background: url(image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.boder{
+    height: 65vh;
+    width: 50%;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, rgba(84, 182, 27, 0.8), rgba(255,0,0,0.8),rgba(38, 134, 224, 0.8));
+    align-items: center;
+}
